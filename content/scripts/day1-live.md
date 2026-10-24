@@ -13,8 +13,8 @@
 3. TikTok の「+」→「LIVE」が押せる状態か確認
 4. エフェクトで「アバター」フィルタを選んでおく
 5. 以下の画面を**別タブ** or **別デバイス**で開いておく（配信中にチラ見する用）
+   - 公開サイト: https://ai-venture-180.vercel.app
    - GitHub: https://github.com/8739business-droid/ai-venture
-   - CONSTITUTION.md のページ
 
 ---
 
@@ -89,7 +89,7 @@ CONSTITUTION.md の画面を見せながら読み上げる:
 | --- | --- |
 | 「どうせ無理でしょ」 | 「無理だったら無理って GitHub にコミットします。それがこの実験の肝です」 |
 | 「元手5万円って少なくない？」 | 「少ないです。それが物語です。多ければ普通の起業です」 |
-| 「本当に GitHub にあるの？」 | 「URL 読み上げます: github.com/8739business-droid/ai-venture」 |
+| 「本当に GitHub にあるの？」 | 「URL 読み上げます: ai-venture-180.vercel.app（技術的な人は github.com/8739business-droid/ai-venture）」 |
 | 「何売るの？」 | 「まだ決めてないです。2週間後に AI が決めます」 |
 | 「AI って何使ってるの？」 | 「Claude がメインです。他に Higgsfield と viewmax」 |
 | 「顔は？」 | 「加工ありの本人です。中身は僕。TikTok のアバター機能使ってます」 |
@@ -132,7 +132,7 @@ Live が開けなかった場合、同じ内容を 60 秒以内に圧縮して�
 > 「6ヶ月で月200ドル稼げなきゃ全部やめます。」
 > 「僕は何も決めません。事業は AI に決めさせます。」
 > 「全部 GitHub にコミットするので嘘がつけません。」
-> 「URL: github.com/8739business-droid/ai-venture」
+> 「URL: ai-venture-180.vercel.app」
 > 「Day 1。」
 
 これで40〜50秒。TikTok の通常投稿として上げる。
