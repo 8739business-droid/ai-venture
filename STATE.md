@@ -11,7 +11,7 @@
 ## 直近の決定
 
 - decisions/001 承認済み: Phase 1 を「賭けの宣言」に組み替え。本人が加工ありで出演。キャラは Phase 2 送り
-- TikTok アカウント: 作成済み（名義は1本目公開直前に確定）
+- TikTok アカウント: 作成済み・表示名「マサ公開AI起業ログ」で確定
 - GitHub リポジトリ: https://github.com/8739business-droid/ai-venture
 - 顔加工: Reality（iPhone、無料、VTuber アプリ）で確定
 - Phase 1 の1本目〜3本目の台本: `content/scripts/day{1,2,3}.md` に作成済み
