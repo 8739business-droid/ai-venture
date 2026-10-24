@@ -26,13 +26,15 @@
 ## 発信チャネル
 
 - 主たるチャネル: TikTok
-- アカウント名義: AIキャラ（Higgsfield で生成）
-- 顔出し: なし
+- アカウント名義: 本名ベース（Phase 1 は本人が語り手。AIキャラは Phase 2 で登場）
+- 顔出し: 加工あり本人出演（詳細は Phase 1 の収録方針で決定）
+
+※ 2026-10-24 に decisions/001 により当初の「AIキャラ名義・顔出しなし」から変更。
 
 ## リポジトリ
 
 - 公開 / 非公開: 公開（Day 0 から）
-- URL: （GitHub にリポジトリを作成次第、追記）
+- URL: https://github.com/8739business-droid/ai-venture
 
 ---
 
