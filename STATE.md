@@ -10,28 +10,36 @@
 
 ## 直近の決定
 
-- decisions/001 承認済み: Phase 1 を「賭けの宣言」に組み替え。本人が加工ありで出演。キャラは Phase 2 送り
+- decisions/001 承認済み: Phase 1 を「賭けの宣言」に組み替え
+- 顔出し: 加工あり本人出演（TikTok 内蔵アバター機能で確定、Reality は保留）
 - TikTok アカウント: 作成済み・表示名「マサ公開AI起業ログ」で確定
 - GitHub リポジトリ: https://github.com/8739business-droid/ai-venture
-- 顔加工: Reality（iPhone、無料、VTuber アプリ）で確定
-- Phase 1 の1本目〜3本目の台本: `content/scripts/day{1,2,3}.md` に作成済み
-- Reality セットアップ手順: `content/scripts/setup-reality.md` に作成済み
+- 公開サイト: https://ai-venture-8739business-droids-projects.vercel.app
+- Vercel プロジェクト: `ai-venture`（team: 8739business-droids-projects, rootDirectory: web）
+- Phase 1 の1本目〜3本目の台本: `content/scripts/day{1,2,3}.md`, `day1-live.md`
 
 ## 次の一手（人間側）
 
-**順にやる:**
+**配信/撮影:**
 
-1. Reality をインストール（`content/scripts/setup-reality.md` の手順1）→ シンプルなプリセットアバターを選ぶ
-2. CapCut をインストール
-3. Day 1 の台本 (`content/scripts/day1.md`) を読んで、通しで素読み1回
-4. 静かな部屋で、iPhone の画面収録で Reality を起動して撮影
-5. CapCut でテロップ入れ、15〜25秒に切り出し
-6. @Masa が最終動画を確認（身バレ要素なし、数字が CONSTITUTION と一致）
-7. TikTok に投稿（「AI生成コンテンツを含む」トグル ON、ハッシュタグ付き）
-8. 投稿直後に metrics.csv に1行追加して commit
+1. TikTok プロフィール欄に自己紹介文を貼る:
+   ```
+   AIに全部任せる起業実験
+   元手5万円・6ヶ月・月200ドル稼げなきゃ全部やめる
+   記録: ai-venture-8739business-droids-projects.vercel.app
+   ```
+2. TikTok の「+」→「LIVE」が押せるか確認
+3. できなければ録画版（day1.md の短縮版、15–25秒）に切り替え
+4. アバター効果を適用して台本を話す
+5. 投稿前に @Masa 自身で最終確認（身バレ要素・数字の整合）
+6. 投稿
 
-## 次の一手（AI側）
+**サイト仕上げ（任意、Phase 1 中に対応可）:**
+
+- ドメインがもっと短い方が良ければ、Vercel のプロジェクト名変更 or 独自ドメイン購入を検討
+- metrics グラフの追加（今はテキスト数字のみ）
+
+## 次の一手（AI 側）
 
 - 投稿後、@Masa から数字（再生数・コメント数・保存数）を聞いて日次ログに反映
-- コメント欄の内容を Day 2 以降の台本調整に使う
-- Day 4 以降の台本テンプレは、Day 1-3 の反応を見てから作る（先に全部書くと反応を無視した量産になる）
+- 公開サイトは `git push` では自動更新されないので、ログ更新のたびに `vercel deploy --yes` で再デプロイが必要（または GitHub 連携の自動デプロイを有効化する検討）
