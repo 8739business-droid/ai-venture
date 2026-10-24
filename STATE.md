@@ -14,7 +14,7 @@
 - 顔出し: 加工あり本人出演（TikTok 内蔵アバター機能で確定、Reality は保留）
 - TikTok アカウント: 作成済み・表示名「マサ公開AI起業ログ」で確定
 - GitHub リポジトリ: https://github.com/8739business-droid/ai-venture
-- 公開サイト: https://ai-venture-8739business-droids-projects.vercel.app
+- 公開サイト: https://ai-venture-180.vercel.app（team-scoped URL も生きている: https://ai-venture-8739business-droids-projects.vercel.app ）
 - Vercel プロジェクト: `ai-venture`（team: 8739business-droids-projects, rootDirectory: web）
 - Phase 1 の1本目〜3本目の台本: `content/scripts/day{1,2,3}.md`, `day1-live.md`
 
@@ -26,7 +26,7 @@
    ```
    AIに全部任せる起業実験
    元手5万円・6ヶ月・月200ドル稼げなきゃ全部やめる
-   記録: ai-venture-8739business-droids-projects.vercel.app
+   記録: ai-venture-180.vercel.app
    ```
 2. TikTok の「+」→「LIVE」が押せるか確認
 3. できなければ録画版（day1.md の短縮版、15–25秒）に切り替え
