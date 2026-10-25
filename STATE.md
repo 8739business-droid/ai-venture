@@ -30,22 +30,19 @@
    `github.com/8739business-droid/ai-venture` → `ai-venture-180.vercel.app`
 2. **投稿1時間後の数字**を見て @Masa に伝える: 再生数・いいね・コメント・フォロワー
 
-### 明日（Day 2）やること
+### 今日（Day 2）やること
 
-**1日2本投稿体制スタート**
+**1日4本投稿体制: TikTok×2 + Threads×2（コメント誘発特化）**
 
-朝の本編（7-12時）:
-1. Day 1 投稿の数字を確認（再生・いいね・コメント・フォロワー）
-2. 台本の `[X]` に数字を埋める: `content/scripts/day2.md` 朝セクション
-3. 撮影→投稿（30-50秒）
+全体の流れと台本: `content/scripts/day2.md`
 
-夜の軽い方（19-22時）:
-1. 発見経路アンケートの10-20秒動画
-2. 台本: `content/scripts/day2.md` 夜セクション
+- 朝 (7-8時): TikTok 本編 + Threads 投稿 (数字公開 + 1行アンケート)
+- 夜 (21時): TikTok 軽い + Threads 投稿 (A/B 二択)
+- 返信: 来たら 1-2 行で返す。全部 research/day2-comments.md に保存
 
-その他:
-- 「経路」コメントを `research/day2-sources.md` に蓄積
-- 1日の終わりに AI (僕) に数字を伝える
+1日の所要時間目安: 40〜50分（撮影+投稿+返信散発）
+
+全部できない日の優先順位: TikTok 朝 ＞ Threads 朝 ＞ TikTok 夜 ＞ Threads 夜
 
 ### 緊急度低（Phase 1 期間中にやる）
 
